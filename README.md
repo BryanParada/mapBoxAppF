@@ -1,6 +1,20 @@
 # mapbox_maps
 
-A new Flutter project.
+A Flutter project with mapbox library.
+
+![image](https://user-images.githubusercontent.com/51382458/211623967-50d2fe0c-bbb4-4a77-b46f-8bdb5f62b7d5.png)
+
+## Features  
+- Zoom in - zoom out
+- Change style
+
+## What did i use in this app? 
+
+- MapBox Library 
+- Custom Themes in Mapbox
+- symbols
+- Custom Symbols
+- Change theme dynamically
 
 ## Getting Started
 
