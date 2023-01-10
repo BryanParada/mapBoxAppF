@@ -32,6 +32,27 @@ class _FullScreenMapState extends State<FullScreenMap> {
       mainAxisAlignment: MainAxisAlignment.end,
       children: <Widget>[
 
+        
+        //simbolos
+        FloatingActionButton(
+          child: Icon(Icons.emoji_symbols),
+          onPressed: (){
+            
+            
+            mapController.addSymbol(SymbolOptions( 
+              geometry: center, 
+              iconSize: 3,
+              textField: 'Mountain created here',
+              iconImage: 'attraction-15',
+              textOffset: Offset(0,1)
+              //textColor: '#cccccc'
+              ));
+          }
+          ),
+
+        SizedBox(height: 5,),
+
+
         //ZOOM IN
         FloatingActionButton(
           child: Icon(Icons.zoom_in),
